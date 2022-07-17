@@ -2,10 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int OnAccount = 300; // количество денег на счету
+        int onAccount = 300; // количество денег на счету
         int replenishment = 2532; // сумма пополнения
 
-        int AfterRefill = OnAccount + replenishment; //Итоговый счет
+        int afterRefill = onAccount + replenishment; //Итоговый счет
 
         int bonus;
         if (replenishment >= 1000) {
@@ -14,7 +14,7 @@ public class Main {
             bonus = 0;
         }
 
-        System.out.println("Итоговый счет:" + AfterRefill);
+        System.out.println("Итоговый счет:" + afterRefill);
         System.out.println("Бонусные рубли:" + bonus);
     }
 }
